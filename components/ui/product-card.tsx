@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Product } from "@/types"
 import IconButton from "@/components/ui/icon-button"
 import { Expand, ShoppingCart } from "lucide-react"
+import Currency from "@/components/ui/currency"
 
 interface ProductCard {
     data: Product
@@ -40,6 +41,15 @@ const ProductCard:React.FC<ProductCard> = ({
         </div>
 
         </div>
+          {/* Description */}
+      <div>
+        <p className="font-semibold text-lg">{data.name}</p>
+        <p className="text-sm text-gray-500">{data.category?.name}</p>
+      </div>
+       {/* Price & Reiew */}
+       <div className="flex items-center justify-between">
+        <Currency value={data?.price} />
+      </div>
     </div>
   )
 }
