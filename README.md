@@ -40,4 +40,12 @@ to update page category install a package query string
 npm i query-string
 npm run dev
 
+create new file producr-list.tsx in the components folder and import into page.tsx
+
+
+create no result components which will be reused
+
+in components folder under UI no-results.tsx
+
+In components folder under Ui create product-card.tsx
 
