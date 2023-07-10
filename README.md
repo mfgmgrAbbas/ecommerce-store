@@ -11,7 +11,6 @@ npx create-next-app@latest --ecommerce-store --typescript --tailwind --eslint
 ament global.css and layout.tsx
 
 delete page.tsx from app folder and create new folder inside app (routes) and inside it create page.tsx
-
 now run the project npm run dev
 
 create components folder outside app folder
@@ -35,5 +34,10 @@ now try and fetch route create .env file and copy the api from setting page and 
 In navbar create an action which is going to call our categories in order to do that create new folder actions in the root of directory and insode it create new file get-categories.tsx
 
 
+Now define types for products and in actions copy the get-categories and paste it into actions
+
+to update page category install a package query string
+npm i query-string
+npm run dev
 
 
