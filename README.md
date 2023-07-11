@@ -40,7 +40,7 @@ to update page category install a package query string
 npm i query-string
 npm run dev
 
-create new file producr-list.tsx in the components folder and import into page.tsx
+create new file product-list.tsx in the components folder and import into page.tsx
 
 
 create no result components which will be reused
@@ -48,4 +48,18 @@ create no result components which will be reused
 in components folder under UI no-results.tsx
 
 In components folder under Ui create product-card.tsx
+
+create mew file product.tsx inside actions folder
+
+now create new folder under components called gallery and inside it create index.tsx file
+
+now install npm i @headlessui/react
+npm run dev
+
+inside components create new file info.tsx
+
+create new folder category under app inside (routes)
+
+
+
 
