@@ -58,7 +58,9 @@ npm run dev
 
 inside components create new file info.tsx
 
-create new folder category under app inside (routes)
+create new folder category under app inside (routes) and inside category create [categoryId] folder and insdie it create page.tsx
+
+
 
 
 
